@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMAI Hub</title>
+    <link rel="shortcut icon" href="./images/icon_symbol_colored.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4488f611cb.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <img src="./images/CMAI_footer_logo-removebg-preview.png" width="200" alt="">
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#" class="active-link"><i class="fas fa-home"></i> Dashboard Hub</a></li>
+                    <li><a href="#"><i class="fas fa-shapes"></i> Agent Catalogue</a></li>
+                    <li><a href="#"><i class="fas fa-network-wired"></i> Connection Manager</a></li>
+                    <li><a href="#"><i class="fas fa-brain"></i> AI Studio</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                    <li><a href="#"><i class="fas fa-atom"></i> Core</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="main-header">
+                <h1 class="top-header">Dashboard HUB</h1>
+                <div class="header-actions">
+                    <button class="btn btn-primary"><i class="fas fa-plus"></i> Create Agent</button>
+                    <button class="btn btn-secondary">Configure Governance</button>
+                    <button class="btn btn-secondary">Configure Local LLM</button>
+                </div>
+            </header>
+
+            <section class="key-metrics">
+                <h2>Key Metrics</h2>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <h3><i class="fas fa-tasks-alt"></i> Active Agents</h3>
+                        <p class="metric-value">6</p>
+                        <ul class="agent-list">
+                            <li><i class="fas fa-file-invoice-dollar list-icon"></i> Finance Agent</li>
+                            <li><i class="fas fa-chart-line list-icon"></i> Analytics Agent</li>
+                            <li><i class="fas fa-archive list-icon"></i> Records Agent</li>
+                            <li><i class="fas fa-tasks list-icon"></i> PM Agent</li>
+                            <li><i class="fas fa-users-cog list-icon"></i> HR Agent</li>
+                            <li><i class="fas fa-gavel list-icon"></i> Compliance Agent</li>
+                            <li><i class="fas fa-bullhorn list-icon"></i> Marketing Agent</li>
+                            <li><i class="fas fa-cogs list-icon"></i> IT Ops Agent</li>
+                        </ul>
+                    </div>
+                    <div class="metric-card">
+                        <h3><i class="fas fa-shield-alt"></i> Governance Policies</h3>
+                        <p class="metric-value">12</p>
+                        <ul class="policy-list" style="margin-top: 22px;">
+                            <li><i class="fas fa-lock list-icon"></i> EU Region Lock</li>
+                            <li><i class="fas fa-filter list-icon"></i> LLM Filter Rules</li>
+                            <li><i class="fas fa-user-secret list-icon"></i> PII Redaction</li>
+                            <li><i class="fas fa-user-shield list-icon"></i> GDPR</li>
+                            <li><i class="fas fa-certificate list-icon"></i> SOC 2</li>
+                            <li><i class="fas fa-balance-scale list-icon"></i> EU AI Act</li>
+                        </ul>
+                    </div>
+                    <div class="metric-card">
+                        <h3><i class="fas fa-plug"></i> Connected Systems</h3>
+                        <p class="metric-value">8</p>
+                        <ul class="system-list">
+                            <li><i class="fab fa-bots"></i> ChatGPT</li>
+                            <li><i class="fas fa-brain"></i> Gemini</li>
+                            <li><i class="fas fa-cloud"></i> Claude</li>
+                            <li><i class="fab fa-salesforce"></i> Salesforce</li>
+                            <li><i class="fab fa-google-drive"></i> Google Drive</li>
+                            <li><i class="fas fa-chart-bar"></i> Power BI</li>
+                            <li><i class="fas fa-database"></i> SAP</li>
+                            <li><i class="fab fa-jira"></i> Jira</li>
+                        </ul>
+                    </div>
+                    <div class="metric-card platform-roi">
+                        <h3><i class="fas fa-chart-line"></i> Platform ROI</h3>
+                        <div class="roi-details">
+                            <p><span>Cost Savings (YTD)</span> <strong>€120,000</strong></p>
+                            <p><span>Revenue Influenced</span> <strong>€230,000</strong></p>
+                            <p><span>FTE Hours Saved</span> <strong>1,100 hrs</strong></p>
+                            <p><span>CMAI Platform ROI Payback Period</span> <strong>3.5 months</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="agent-overview">
+                <h2>Agent Overview</h2>
+                <div class="agents-grid">
+                    <div class="agent-card">
+                        <div class="agent-card-header">
+                            <i class="fas fa-calculator agent-icon finance-icon"></i>
+                            <h3>Finance Agent</h3>
+                        </div>
+                        <p>Summarizes budget reports and forecasts</p>
+                        <span class="status active">Active</span>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-card-header">
+                            <i class="fas fa-headset agent-icon support-icon"></i>
+                            <h3>Support Agent</h3>
+                        </div>
+                        <p>Classifies tickets and drafts responses</p>
+                        <span class="status sandbox">Sandbox</span>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-card-header">
+                            <i class="fas fa-bullhorn agent-icon sales-icon"></i>
+                            <h3>Sales Agent</h3>
+                        </div>
+                        <p>Highlights leads and next steps from CRM</p>
+                        <span class="status disabled">Disabled</span>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-card-header">
+                            <i class="fas fa-users agent-icon hr-icon"></i>
+                            <h3>HR Agent</h3>
+                        </div>
+                        <p>Answers HR queries and assists with employee policies</p>
+                        <span class="status active">Active</span>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-card-header">
+                            <i class="fas fa-chart-pie agent-icon analytics-icon"></i>
+                            <h3>Analytics Agent</h3>
+                        </div>
+                        <p>Provides insights from business performance metrics</p>
+                        <span class="status active">Active</span>
+                    </div>
+                    <div class="agent-card">
+                        <div class="agent-card-header">
+                            <i class="fas fa-shield-alt agent-icon compliance-icon"></i>
+                            <h3>Compliance Agent</h3>
+                        </div>
+                        <p>Scans for policy adherence and contract review</p>
+                        <span class="status active">Active</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="operational-insights">
+                <h2>Operational Insights</h2>
+                <div class="insights-grid">
+                    <div class="insight-card">
+                        <h3>Platform Activity</h3>
+                        <ul>
+                            <li><i class="fas fa-rocket activity-icon" style="margin-right: 14px;"></i> Finance Agent deployed to production by Anna
+                                - 2h ago</li>
+                            <li><i class="fas fa-user-plus activity-icon"></i> Onboarding Agent edited by Mark - 1 day
+                                ago</li>
+                            <li><i class="fas fa-plug activity-icon" style="margin-right: 18px;"></i> New API (Salesforce) connected - 3 days ago
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="insight-card">
+                        <h3><i class="fas fa-users"></i> Active Users</h3>
+                        <p><i class="fas fa-sign-in-alt"></i> Logged In (24h): <strong>42</strong></p>
+                        <p><i class="fas fa-layer-group"></i> Departments Active: <strong>5 of 8</strong></p>
+                        <p><i class="far fa-clock"></i> Avg Session Duration: <strong>7.3 min</strong></p>
+                    </div>
+                    <div class="insight-card">
+                        <h3>Hub/Core Sync</h3>
+                        <p><i class="fas fa-check-circle sync-good"></i> All systems up to date</p>
+                        <p><i class="far fa-clock"></i> Last Sync: 3 mins ago</p>
+                        <p><i class="fas fa-sync sync-good"></i> Agents: Synced</p>
+                    </div>
+                    <div class="insight-card system-health">
+                        <h3><i class="fas fa-heartbeat"></i> System Health</h3>
+
+                        <div class="health-columns">
+                            <div class="health-column">
+                                <p style="margin-top: 0;"><span class="health-dot low"></span> Low Latency (&lt;1s): <strong>82%</strong></p>
+                                <p><span class="health-dot medium"></span> Medium Latency (1–3s): <strong>14%</strong></p>
+                                <p><span class="health-dot high"></span> High Latency (&gt;3s): <strong>4%</strong></p>
+                            </div>
+
+                            <div class="health-column">
+                                <p style="margin-top: 0;"><i class="fas fa-robot error-icon"></i> External LLM Violations: <strong>3</strong></p>
+                                <p><i class="fas fa-ban error-icon"></i> Policy Blocks Triggered: <strong>4</strong></p>
+                                <p><i class="fas fa-exclamation-triangle error-icon"></i> Agent Misconfig Alerts:<strong>1</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
